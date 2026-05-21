@@ -1,0 +1,6 @@
+Process Step,Failure Mode,Effect,Severity (1-10),Occurrence (1-10),Detection (1-10),Recommended Action,RPN
+Warehouse Assignment,Wrong block assigned to high-volume orders,"Picking delays, late dispatch",9,7,6,Implement ML-based block routing rule; prioritise blocks A/B for heavy items,378
+Discount-Driven Volume Spike,Promotional orders overwhelm warehouse capacity,Across-the-board delays during sale periods,7,6,7,Pre-position stock ahead of campaigns; dynamic carrier capacity booking,294
+High-Weight Order Handling,"Heavy parcels (>4,000g) miss dispatch window","Late delivery, high complaint calls",8,8,4,Create dedicated heavy-item picking lane; set weight threshold alerts,256
+Carrier Selection,Ship mode used for time-sensitive long-distance orders,Transit time exceeds SLA,8,6,5,Mandate flight/road for orders >500km with high customer rating history,240
+Customer Care Call Handling,High call volume blocks operations staff from dispatch tasks,"Delay escalation, poor CSAT",6,7,5,Deploy chatbot for tier-1 queries; route complex cases to dedicated team,210
